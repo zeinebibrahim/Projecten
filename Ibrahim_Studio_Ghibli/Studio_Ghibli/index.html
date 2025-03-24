@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="icon" href="img/faviconS.png" type="image">
+    <link rel="stylesheet" href="/Studio_Ghibli/css/style.css">
+    <title>keuzedeel</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-success">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+              <img src="img/logo.png" alt="Logo" width="180" height="100" class="d-inline-block align-text-top">
+          </a>
+        <a class="navbar-brand" href="#">Studio Ghibli</a>
+        
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active text-dark" aria-current="page" href="http://127.0.0.1:5500/Studio_Ghibli/test.html">Movies</a>
+          </li>
+          <li class="nav-item">
+                  <a class="nav-link text-dark" href="http://127.0.0.1:5500/Studio_Ghibli/index.html">Hayao Miyazaki</a>
+                </li>
+          <li class="nav-item">
+              <a class="nav-link text-dark" href="http://127.0.0.1:5500/Studio_Ghibli/Trailers.html">Trailers</a>
+          </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+              </form>
+        </div>
+      </div>
+    </nav>
+
+    
+    <div class="parallax" style="background-image: url('img/painting.png');">
+      <div class="content">
+        <h1>Hayao Miyazaki</h1>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+        <div class="card square-card">
+            <div class="row no-gutters">
+                <div class="col-md-8 order-md-1 order-2 d-flex align-items-center">
+                    <div class="card-body">
+                        <p class="card-text">Hayao Miyazaki is a Japanese animator, filmmaker, and manga artist, born on January 5, 1941, in Tokyo. He co-founded Studio Ghibli and is globally recognized as a master storyteller and one of the most influential filmmakers in the history of animation.</p>
+                        <p class="card-text">Miyazaki began his career in 1963 at Toei Animation, working on various animated films before directing his first feature film, "The Castle of Cagliostro," in 1979. He is best known for his work at Studio Ghibli, where he created classics such as "My Neighbor Totoro," "Princess Mononoke," and "Spirited Away". His films are renowned for their beautiful animation, deep storytelling, and strong environmental messages.</p>
+                        <p class="card-text">One of Miyazaki's most celebrated works is "Spirited Away," a film that captivated audiences worldwide with its imaginative story and stunning visuals. In 2003, this masterpiece earned Miyazaki the Academy Award for Best Animated Feature, making it the first non-English language film to win this prestigious award. The film's success didn't stop there; it also won the Golden Bear at the Berlin International Film Festival in 2002, further cementing Miyazaki's reputation as a visionary filmmaker.</p>
+                        <div class="container">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <img src="img/miyazaki_win.png" class="card-img" alt="Image 1">
+                            </div>
+                            <div class="col-md-6">
+                              <img src="img/giphy.gif" class="card-img" alt="Image 2">
+                            </div>
+                          </div>
+                        </div>
+                        <p class="card-text">In 2014, Miyazaki received an Honorary Academy Award for his lifetime contributions to the world of animation. This award recognized not just his individual films but his overall impact on the industry and his ability to inspire both audiences and fellow creators.</p>
+                        <p class="card-text">Miyazaki's work has also been celebrated at the Annie Awards, where he has won multiple times. For instance, in 2014, he received the award for Outstanding Achievement in Writing for "The Wind Rises," a poignant film that reflects on the life of an aircraft designer. More recently, in 2024, he was honored with the Outstanding Achievement for Storyboarding for "The Boy and the Heron," showcasing his continued excellence in storytelling.</p>
+                        <p class="card-text">The BAFTA Awards have also recognized Miyazaki's brilliance. In 2024, "The Boy and the Heron" won the Best Animated Feature Film, adding another accolade to his impressive collection.</p>
+                        <p class="card-text">In 2005, the Venice Film Festival awarded Miyazaki the Golden Lion for Lifetime Achievement, celebrating his enduring influence on the art of animation and his ability to create timeless stories that resonate with audiences of all ages.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 order-md-2 order-1">
+                    <img src="img/miyazaki_smile.png" class="card-img" alt="Hayao Miyazaki">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="parallax" style="background-image: url('img/painting.png');">
+      <div class="content">
+      </div>
+    </div>
+
+    <script>
+      window.addEventListener('load', function() {
+        document.body.classList.add('fade-in');
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

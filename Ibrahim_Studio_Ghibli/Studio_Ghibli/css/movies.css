@@ -1,0 +1,68 @@
+.navbar.bg-success {
+    background-color: rgba(40, 167, 69, 0.4) !important;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+body {
+    margin: 0;
+    padding-top: 0px;
+    background-color: rgba(40, 167, 69, 0.4);
+}
+.content {
+    position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.content img {
+    width: 100%;
+    height: auto;
+}
+.image-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+}
+.video-container {
+    transition: transform 0.3s ease-in-out;
+}
+ .video-container:hover {
+    transform: translateY(-11px);
+}
+.parallax {
+    height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (max-width: 768px) {
+    .parallax {
+      background-attachment: fixed;
+      height: 600px;
+    }
+}
+body {
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
+  body.fade-in {
+    opacity: 1;
+  }
